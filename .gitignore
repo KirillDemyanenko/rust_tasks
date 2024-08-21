@@ -1,0 +1,7 @@
+/target
+**/target/
+**/src/*.exe
+**/src/*.pdb
+**/src/tempCodeRunnerFile.rs
+**/Cargo.lock
+**/Cargo.toml
