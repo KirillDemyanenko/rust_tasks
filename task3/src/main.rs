@@ -15,13 +15,13 @@ fn main() {
     let apartments_on_floor: u16 = user_input
         .trim()
         .parse()
-        .expect("Parse.error!");
+        .expect("Parse error!");
     user_input.clear();
     std::io::stdin().read_line(&mut user_input).expect("Input error!");
     let apartment_number: u16 = user_input
         .trim()
         .parse()
-        .expect("Parse.error!");
+        .expect("Parse error!");
     println!(
         "Квартира с номером {} находится на {} этаже",
         apartment_number,
