@@ -9,7 +9,7 @@ fn main() {
     let a: i8 = user_input
         .trim()
         .parse()
-        .expect("Parse error!");
+        .expect("Par/se error!");
     user_input.clear();
     std::io::stdin().read_line(&mut user_input).expect("Input error!"); 
     let b: i8 = user_input
