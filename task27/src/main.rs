@@ -6,7 +6,7 @@
 fn main() {
     let mut user_input = String::new();
     std::io::stdin().read_line(&mut user_input).expect("Input error!");
-    let n: u8 = user_input.trim().parse().expect("Parse error!")
+    let n: u8 = user_input.trim().parse().expect("Parse error!");
     for _ in 0..n {
         user_input.clear();
         std::io::stdin().read_line(&mut user_input).expect("Input error!");      
