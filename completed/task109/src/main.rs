@@ -21,7 +21,7 @@ fn main() {
     let mut stars = 1;
     for _ in 0..n {
         println!("{}{}", " ".repeat(spaces as usize), "*".repeat(stars as usize));
-        stars += 2;;
+        stars += 2;
         spaces -= 1;
     }
 }
